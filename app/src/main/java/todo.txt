@@ -1,0 +1,8 @@
+TODO:
+   - Better loader
+   - Better design
+   - More features
+   - Protocol & URL Update
+   - Adding own servers with AimPanel
+   - Error parser with in-background notifies
+   - recode API

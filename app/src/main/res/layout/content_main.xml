@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#8bc34a"
+    android:backgroundTint="#8bc34a"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="pl.eldzi.aimpanel.MainActivity"
+    tools:showIn="@layout/activity_main">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="Witaj w AimDroid!"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textIsSelectable="false"
+        android:textSize="42dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/start"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:layout_width="270dp"
+        android:layout_height="60dp"
+        android:layout_alignLeft="@+id/wyjdz"
+
+        android:layout_alignStart="@+id/wyjdz"
+        android:layout_below="@+id/textView2"
+        android:layout_marginTop="36dp"
+        android:background="@drawable/button_style"
+        android:shadowColor="#000000"
+        android:shadowDx="2"
+        android:shadowDy="2"
+        android:shadowRadius="1.5"
+        android:text="START"
+        android:textColor="#8BC34A"
+        android:textSize="30sp"
+        android:theme="@style/Button.Tinted" />
+
+    <Button
+        android:id="@+id/info"
+
+        android:layout_width="270dp"
+        android:layout_height="60dp"
+        android:layout_alignLeft="@+id/start"
+
+        android:layout_alignStart="@+id/start"
+        android:layout_below="@+id/start"
+        android:background="@drawable/button_style"
+        android:shadowColor="#000000"
+        android:shadowDx="2"
+        android:shadowDy="2"
+        android:shadowRadius="1.5"
+        android:text="Info"
+        android:textColor="#8BC34A"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/wyjdz"
+
+        android:layout_width="270dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/info"
+
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/button_style"
+        android:shadowColor="#000000"
+        android:shadowDx="2"
+        android:shadowDy="2"
+        android:shadowRadius="1.5"
+        android:text="Wyjdz"
+        android:textColor="#8BC34A"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/start"
+        android:layout_alignLeft="@+id/textView"
+        android:layout_alignRight="@+id/start"
+        android:layout_alignStart="@+id/textView"
+        android:layout_below="@+id/textView"
+        android:gravity="center"
+        android:text="wykonany przez Wiktora Dylewskiego"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="40dp"
+        android:text="Copyright © aimpanel.pro  Wszelkie prawa zastrzeżone"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+</RelativeLayout>

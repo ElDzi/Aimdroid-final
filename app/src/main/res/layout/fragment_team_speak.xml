@@ -1,0 +1,77 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="pl.eldzi.aimpanel.fragments.TeamSpeakFragment">
+
+    TextView
+    android:id="@+id/textView9"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_alignBottom="@+id/stworz"
+    android:layout_alignParentTop="true"
+    android:gravity="center"
+    android:singleLine="true"
+    android:text="SERWERY TeamSpeak3"
+    android:textAppearance="?android:attr/textAppearanceLarge"
+    android:textColor="#6e6d6d"
+    android:textSize="30dp"
+    android:layout_alignParentRight="true"
+    android:layout_alignParentEnd="true" />
+
+    <Button
+        android:id="@+id/stworz"
+
+        android:layout_width="270dp"
+        android:layout_height="60dp"
+
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="133dp"
+        android:background="@drawable/button_style"
+        android:shadowColor="#000000"
+        android:shadowDx="2"
+        android:shadowDy="2"
+        android:shadowRadius="1.5"
+        android:text="STWORZ"
+        android:textColor="#8BC34A"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/usun"
+
+        android:layout_width="270dp"
+        android:layout_height="60dp"
+
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/button_style"
+        android:shadowColor="#000000"
+        android:shadowDx="2"
+        android:shadowDy="2"
+        android:shadowRadius="1.5"
+        android:text="USUŃ"
+        android:textColor="#8BC34A"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/lista"
+
+        android:layout_width="270dp"
+        android:layout_height="60dp"
+
+        android:layout_alignLeft="@+id/usun"
+        android:layout_alignStart="@+id/usun"
+        android:layout_below="@+id/usun"
+        android:layout_marginTop="118dp"
+        android:background="@drawable/button_style"
+        android:shadowColor="#000000"
+        android:shadowDx="2"
+        android:shadowDy="2"
+        android:shadowRadius="1.5"
+        android:text="LISTA"
+        android:textColor="#8BC34A"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>
